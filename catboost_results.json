@@ -1,0 +1,112 @@
+{
+    "model_parameters": {
+        "iterations": 1000,
+        "learning_rate": 0.07,
+        "depth": 8,
+        "l2_leaf_reg": 12,
+        "loss_function": "RMSE",
+        "eval_metric": "RMSE",
+        "random_seed": 42,
+        "early_stopping_rounds": 50,
+        "verbose": 100
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.14140195659775767,
+            "mae": 0.07373512209752392,
+            "r2": 0.9996232316270168
+        },
+        "validation": {
+            "rmse": 0.2645483936368328,
+            "mae": 0.08891751456881944,
+            "r2": 0.9987392139762525
+        },
+        "test": {
+            "rmse": 0.2703647906119842,
+            "mae": 0.08911258717050838,
+            "r2": 0.9986414341154903
+        }
+    },
+    "feature_importance": [
+        {
+            "feature": "Media_per_price",
+            "importance": 64.01627576663512
+        },
+        {
+            "feature": "Media_richness",
+            "importance": 29.379436252592797
+        },
+        {
+            "feature": "Screenshot_count",
+            "importance": 4.453959512507843
+        },
+        {
+            "feature": "Content_density",
+            "importance": 1.3110104373828195
+        },
+        {
+            "feature": "Movie_count",
+            "importance": 0.21605757451430688
+        },
+        {
+            "feature": "Content_diversity",
+            "importance": 0.1821887172884336
+        },
+        {
+            "feature": "Tags_per_genre",
+            "importance": 0.1632054618849983
+        },
+        {
+            "feature": "Screenshot_to_movie_ratio",
+            "importance": 0.1420707020439152
+        },
+        {
+            "feature": "Tags_count",
+            "importance": 0.0410499332524286
+        },
+        {
+            "feature": "Release_month",
+            "importance": 0.017056192193806698
+        },
+        {
+            "feature": "Dev_pub_interaction",
+            "importance": 0.011458395029943095
+        },
+        {
+            "feature": "Category_genre_ratio",
+            "importance": 0.009371587854175549
+        },
+        {
+            "feature": "Content_per_platform",
+            "importance": 0.009071162635960925
+        },
+        {
+            "feature": "Windows",
+            "importance": 0.008635495850720914
+        },
+        {
+            "feature": "Release_year",
+            "importance": 0.007266870310447624
+        },
+        {
+            "feature": "Achievement_count",
+            "importance": 0.005933505522213771
+        },
+        {
+            "feature": "Achievement_complexity",
+            "importance": 0.004404021742831024
+        },
+        {
+            "feature": "Achievement_density",
+            "importance": 0.0038747749360738453
+        },
+        {
+            "feature": "Language_count",
+            "importance": 0.0038351813589043455
+        },
+        {
+            "feature": "Language_ratio",
+            "importance": 0.003547654774053422
+        }
+    ]
+}
